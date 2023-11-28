@@ -5,4 +5,4 @@ def is_polindrom(my_str):
     for i in range(n):  # проходим окошками по слову
         if my_str[i] != my_str[-(i + 1)]:  # создаём окошки и сравниваем буквы в них
             return False
-    return True
+    return 1
